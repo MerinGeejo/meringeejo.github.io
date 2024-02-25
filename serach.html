@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>serach</title>
+    <link rel = "stylesheet" href = "node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./Content/app.css">
+</head>
+<body>
+<header>
+</header>
+<div class="showcase"><video src="Pictures/Video1.mp4" muted loop autoplay></video></div>
+
+<div class="text">
+    <h1>Welcome to Harmony Hub</h1>
+    <h4>where Innovation Meets Community</h4>
+</div>
+<div class="wrap">
+    <div class="search">
+        <input type="text" class="searchTerm" id="searchInput" placeholder="What are you looking for?">
+        <button type="button" class="searchButton" onclick="search()">Search</button>
+    </div>
+</div>
+<main class="container" id="searchResults"></main>
+<footer  class="bg-body-tertiary text-center text-lg-start">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container p-4">
+        <div class="footer">
+            <div class="text-center p-3">
+                <div class="col-lg-12">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a href="privacy_policy.html" class="text-body">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="terms_of_service.html" class="text-body">Terms of Service</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="contact.html" class="text-body">Contact</a>
+                        </li>
+                    </ul>
+                    © 2024 Copyright
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--<Scripting Section>-->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./Scripts/app.js"></script>
+<script>
+    function search() {
+        let searchText = document.getElementById("searchInput").value.toLowerCase();
+        let pages = [
+            { title: "Login", url: "login.html" },
+            { title: "Register", url: "register.html" },
+            { title: "Home", url: "index.html" },
+            { title: "Portfolio", url: "portfolio.html" },
+            { title: "Services", url: "services.html" },
+            { title: "Team", url: "team.html" },
+            { title: "Blog Page", url: "blog.html" },
+            { title: "Gallery", url: "gallery.html" },
+            { title: "Events", url: "events.html" },
+            { title: "Contact US", url: "contact.html" }
+        ];
+
+        let foundPage = pages.find(page => page.title.toLowerCase() === searchText);
+
+        if (foundPage) {
+            // Redirect to the found page
+            window.location.href = foundPage.url;
+        } else {
+            // Page not found, display error message or handle as needed
+            alert("Page not found");
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact US</title>
+
+    <link rel = "stylesheet" href = "./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel = "stylesheet" href = "./Content/app.css">
+</head>
+<body>
+<header>
+</header>
+<div class="showcase"><video src="Pictures/Video3.mp4" muted loop autoplay></video></div>
+<div class="text1">
+<div class = "container">
+    <h1>Contact US</h1>
+
+    <div id="messageArea"></div>
+
+    <div class = "row justify-content-lg-center">
+
+        <form id="contactForm"  class = "col-lg-6 col-md-4 col-sm-4">
+            <div class="input-group mb-3">
+                <span class="input-group-text"> Full Name  </span>
+                <input type="text" id="fullName" name="fullName"
+                       class="form-control"  aria-describedby="Full Name" aria-label="Full Name Input" required>
+            </div>
+            <br>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text"> Contact Number</span>
+                <input type="text" id="contactNumber" name="contactNumber"
+                       class="form-control"  aria-describedby="Contact Number" aria-label="Contact Number Input" required>
+
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <span class="input-group-text"> Email Address &nbsp;&nbsp;&nbsp;</span>
+                <input type="email" id="emailAddress" name="emailAddress"
+                       class="form-control"  aria-describedby="Email Address" aria-label="Email Address Input" required>
+
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <label for="feedback"></label><textarea id="feedback" name="feedback" class="form-control" aria-describedby="Feedback" required maxlength="500"></textarea>
+            </div>
+
+
+            <br>
+
+            <div class="form-group">
+                <label for="rating">Rating:</label>
+                <div id="ratingStars">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+                <input type="hidden" id="rating" name="rating" required>
+            </div>
+            <br>
+
+            <button id="submitButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-envelope"></i>Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id = "cancelButton" type="reset" class="btn btn-warning"><i class="fa-solid fa-rotate"></i>Cancel</button>
+
+        </form>
+
+        <div class="col-lg-4 col-md-4">
+            <a href ="review_list.html" class="btn btn-primary"><i class="fa-solid fa-user"></i>View the Reviews</a>
+        </div>
+
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+
+</div>
+
+<!--<Scripting Section>-->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="Scripts/namespace.js"></script>
+<script src="Scripts/contact.js"></script>
+<script src="Scripts/app.js"></script>
+
+</body>
+</html>

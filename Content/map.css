@@ -1,0 +1,12 @@
+body{
+
+    width: 100vw;
+    height: 100vw;
+}
+
+
+#map {
+    height: 60%;
+    width: 60%;
+    margin: auto;
+}

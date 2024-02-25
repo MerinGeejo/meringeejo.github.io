@@ -1,0 +1,28 @@
+{
+  "users" : [
+
+    {
+      "DisplayName" : "Merin Geejo",
+      "EmailAddress" : "mg@gmail.com",
+      "Username" : "meringeejo",
+      "Password" : "1234567"
+    },
+
+    {
+      "DisplayName" : "Merry Viji",
+      "EmailAddress" : "mv@outlook.com",
+      "Username" : "merryviji",
+      "Password" : "7654321"
+    },
+
+    {
+      "DisplayName" : "Admin",
+      "EmailAddress" : "admin@example.com",
+      "Username" : "admin",
+      "Password" : "555555"
+    }
+  ]
+
+
+
+}

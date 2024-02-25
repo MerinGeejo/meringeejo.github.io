@@ -1,0 +1,41 @@
+
+{
+  "events": [
+    {
+      "title": "<Strong>Tech Workshop</Strong>",
+      "date": "2024-03-01",
+      "location": "Durham College, Oshawa, ON",
+      "location_link": "maps.html",
+      "description": "HarmonyTEch is the world's largest community of digital marketers, media professionals, and advertisers. The Harmony Hub hosts three events: the Global HarmonyTEch Conference & Exhibition Series, the Annual Networking Cruise, and the HarmonyTEch Excellence Awards HTech. Learn about the features and benefits of various membership levels, and sign up today to join our global community and take your career to the next level."
+
+    },
+    {
+      "title": "<Strong>Personal Development Seminar</Strong>",
+      "date": "2024-03-7",
+      "location": "Durham College, Oshawa, ON",
+      "location_link": "maps.html",
+      "description": "The PD Seminar is Harmony Hub's favourite event. It's where you take your beliefs, values, and rules - the blueprint and basis for every aspect of your life - and decide to shape yourself into the person you're capable of being rather than accepting whatever life and circumstance has given you the opportunity to be.\n\nThis is not positive thinking. Its strategy and methodology have transformed people's lives. This is where you identify the source of your pain and suffering and change it - a transformation that is not only long-lasting but also scientifically supported."
+    },
+    {
+      "title": "<Strong>Recreation and Sports</Strong>",
+      "date": "2024-03-15",
+      "location": "Sports Centre, Oshawa, ON",
+      "location_link": "maps.html",
+      "description": "Harmony Hub is looking for enthusiastic individual to help them have a better future and let them find their interest . "
+    },
+    {
+      "title": "<Strong>Collaborative Classes</Strong>",
+      "date": "2024-03-18",
+      "location": "Durham College, Oshawa, ON",
+      "location_link": "maps.html",
+      "description": "Let People find themself in each other. The program let You know that you are not alone. Let them help you heal."
+    },
+    {
+      "title": "<Strong>Tech Workshop 2</Strong>",
+      "date": "2024-04-4",
+      "location": "Durham College, Oshawa, ON",
+      "location_link": "maps.html",
+      "description": "HarmonyTEch is the world's largest community of digital marketers, media professionals, and advertisers. The Harmony Hub hosts three events: the Global HarmonyTEch Conference & Exhibition Series, the Annual Networking Cruise, and the HarmonyTEch Excellence Awards HTech. Learn about the features and benefits of various membership levels, and sign up today to join our global community and take your career to the next level."
+    }
+  ]
+}

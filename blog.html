@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Page</title>
+    <link rel = "stylesheet" href = "node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./Content/app.css">
+</head>
+<body>
+<header>
+    <!-- Search bar -->
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Search..." oninput="search()">
+    </div>
+</header>
+
+
+<main class = "container">
+    <h1>Our Blog</h1>
+    <div class="row1">
+        <div class="left_column">
+            <div class="card" id="blog1">
+                <h2>Embark on a Journey of Learning and Connection at Harmony Hub!"</h2>
+                <h5> Jan 26, 2024</h5>
+                <img src="./Pictures/blog1.png" class="card-img-top" alt="Embark Yourself">
+                <p>Immerse yourself in a world of knowledge and camaraderie as Harmony Hub invites you to embark on a
+                    journey of learning and connection. From interactive workshops to community-building events,
+                    discover a space where education meets fellowship.</p>
+                <div class="col-md-4">
+                    <div class="container mt-3 text-right">
+                        <button type="button" class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="blog2">
+            <h2>Unlocking Potential: Dive into the Spectrum of Harmony Hub Activities</h2>
+            <h5>Dec 28,2023</h5>
+            <img src="./Pictures/blog2.png" class="card-img-top" alt="Embark Yourself">
+            <p>Dive into a spectrum of activities designed to unlock your full potential at Harmony Hub. Whether you're
+                seeking personal growth, skill development, or community involvement, our web application offers a
+                diverse range of opportunities waiting to be explored.</p>
+            <div class="col-md-4">
+                <div class="container mt-3 text-right">
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer  class="bg-body-tertiary text-center text-lg-start">
+    <div class="container p-4">
+        <div class="text-center p-3">
+            <div class="col-lg-12">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="privacy_policy.html" class="text-body">Privacy Policy</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="terms_of_service.html" class="text-body">Terms of Service</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="contact.html" class="text-body">Contact</a>
+                    </li>
+                </ul>
+                © 2024 Copyright
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--<Scripting Section>-->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./Scripts/app.js"></script>
+
+</body>
+</html>
